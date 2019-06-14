@@ -1,0 +1,14 @@
+4. Cual es la diferencia entre int.Parse() e int.TryParse() ? Cual usaría Ud. ? Justifique.
+
+    La diferencia es que la función "Parse()" convierte el dato dado a otro de manera directa y 
+    sin comprobar que sea del tipo correcto, mientras que "TryParse()" realiza la conversión pero
+    este devuelve un booleano avisandonos si la conversión se realiza correctamente o no.
+    Es preferible usar el "TryParse()" para evitar problemas cuando se ingrese mal un dato.
+
+5. Que componente del Framework provee la clase  System.String ?
+
+    La provee la .Net Framework Class Library.
+
+6. Si a un método de mi clase le agrego el modificador virtual en la firma. Que estoy queriendo decir ?
+
+    Significa que es un método a la cual las futuras clases hijas a la cual pertenece van a sobreescribir esta función.
