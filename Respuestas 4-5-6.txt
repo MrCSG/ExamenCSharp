@@ -7,8 +7,8 @@
 
 5. Que componente del Framework provee la clase  System.String ?
 
-    La provee la .Net Framework Class Library.
+    La provee la .Net Framework Class Library.  ///la respuesta concreta sería BCL (Base Class Library) que está dentro del .Net Framework Class Library.
 
 6. Si a un método de mi clase le agrego el modificador virtual en la firma. Que estoy queriendo decir ?
 
-    Significa que es un método a la cual las futuras clases hijas a la cual pertenece van a sobreescribir esta función.
+    Significa que es un método a la cual las futuras clases hijas a la cual pertenece van a sobreescribir esta función.  /// (van) las funciones virtual no están obligadas a ser implementadas por sus clases hijas, las abstract si.
