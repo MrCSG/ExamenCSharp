@@ -36,6 +36,8 @@ namespace ExamenCSharp
 
             for(int i=0; i<3; i++)
             {
+                //todo el código subsiguiente podría reemplazarse con una función dentro de las clases que muestren estos datos cuando se las llame
+                //por ejemplo Public void Detalle(){}
                 Console.Write($"Personaje N°{i+1}: ");
                 Console.WriteLine(pjsList[i].Hablar());
                 Console.Write("Está vivo? ");
