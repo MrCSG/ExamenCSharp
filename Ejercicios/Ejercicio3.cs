@@ -29,17 +29,17 @@ namespace ExamenCSharp
             Zombie z2 = new Zombie();
             Humano h1 = new Humano();
 
-            List<Personaje> pjsList = new List<Personaje>(3);
-            pjsList.Add(z1);
-            pjsList.Add(h1);
-            pjsList.Add(z2);
+            List<Personaje> pjsList = new List<Personaje>(3);  //también podría haberse creado un array de Personaje así: Personaje[] ej = new Personaje[3];
+            pjsList.Add(z1);    //Personaje[0] = z1;
+            pjsList.Add(h1);    //Personaje[1] = h1;
+            pjsList.Add(z2);    //Personaje[2] = z2;
 
             for(int i=0; i<3; i++)
             {
                 Console.Write($"Personaje N°{i+1}: ");
                 Console.WriteLine(pjsList[i].Hablar());
                 Console.Write("Está vivo? ");
-                Console.WriteLine(pjsList[i].EstaVivo());
+                Console.WriteLine(pjsList[i].EstaVivo());   //estaría mejor como una propiedad (getter y setter) en lugar de una función ya que no es una acción
                 Console.Write("Come cerebros? ");
                 Console.WriteLine(pjsList[i].ComeCerebros());
                 Console.WriteLine(pjsList[i].Caminar());
