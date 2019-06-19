@@ -10,7 +10,7 @@ namespace ExamenCSharp
         public static void Temperaturas()
         {
             float[] temperature = new float[7];
-            float lowestT = 1000f, highestT = -1000f, midT = 0;
+            float lowestT = 1000f, highestT = -1000f, midT = 0; //era preferible haber usado Int32.MinValue() y Int32.MaxValue()
             int i = 0, lowestDay = 0, highestDay = 0;
             while(i < 7)
             {
